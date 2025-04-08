@@ -32,22 +32,7 @@ C++ Standard Library: Utilizes features from the C++ Standard Library for effici
 Getting Started
 To compile and run the project, follow these steps:
 
-Clone the repository:
-git clone https://github.com/Yarin-Shohat/Cards-and-Players.git
-Navigate to the project directory:
-cd Cards-and-Players
-Compile the project:
-make
-Run the executable:
-./Decks_game
-Project Structure
-main.cpp: Contains the main function to start the game.
-Card.cpp / Card.h: Defines the Card class and related functions.
-Character.cpp / Character.h: Defines the Character class and derived classes for different character types.
-Enemy.cpp / Enemy.h: Defines the Enemy class and derived classes for different enemy types.
-Game.cpp / Game.h: Contains the game logic and mechanics.
-Memory Management
-The project handles dynamic memory allocation using:
+:
 
 Smart Pointers: To automatically manage memory and ensure no memory leaks.
 Exception Handling: To gracefully handle errors and exceptions during memory allocation and other operations.
